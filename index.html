@@ -4,25 +4,26 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Calculator</title>
-		<script type="text/javascript" src="calc.js"></script>
+		<script type="text/javascript" src="calc.js" defer></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<div class="container">
+			<input type="text" id="display" value='0'></input>
 			<button id="clear">C</button>
-			<button id="divide">÷</button>
+			<button class="operator" id="divide">÷</button>
 			<button class="number">7</button>
 			<button class="number">8</button>
 			<button class="number">9</button>
-			<button id="multiply">x</button>
+			<button class="operator" id="multiply">x</button>
 			<button class="number">4</button>
 			<button class="number">5</button>
 			<button class="number">6</button>
-			<button id="subtract">-</button>
+			<button class="operator" id="subtract">-</button>
 			<button class="number">1</button>
 			<button class="number">2</button>
 			<button class="number">3</button>
-			<button id="add">+</button>
+			<button class="operator" id="add">+</button>
 			<button class="number" id="zero">0</button>
 			<button id="decimal">.</button>
 			<button id="equals">=</button>

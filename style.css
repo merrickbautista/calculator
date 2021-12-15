@@ -2,12 +2,22 @@ body {
 	text-align: center;
 }
 
+button {
+	border-radius: 50%;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	border: 2px solid green;
 	width: 50%;
+	column-gap: 3px;
+	row-gap: 3px;
 	margin: 0 auto;
+}
+
+#display {
+	grid-column: 1 / 5;
+	text-align: right;
 }
 
 #zero {
